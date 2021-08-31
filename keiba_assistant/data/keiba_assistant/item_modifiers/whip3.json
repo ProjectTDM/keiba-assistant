@@ -1,0 +1,79 @@
+[
+  {
+      "function": "minecraft:set_name",
+      "name": {
+        "text": "3番ゲート用",
+        "italic": false
+      }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [   
+          {
+            "text": "For gate 3",
+            "color": "white",
+            "italic": false
+          }
+      ],
+      [
+        {
+          "text": "耐久値: ",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "whip"
+          },
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": " / ",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "$race",
+            "objective": "whip"
+          },
+          "color": "white",
+          "italic": false
+        }
+      ],
+      [
+          {
+            "text": "Durability: ",
+            "color": "white",
+            "italic": false
+          },
+          {
+              "score": {
+                "name": "@s",
+                "objective": "whip"
+              },
+              "color": "white",
+              "italic": false
+            },
+            {
+              "text": " / ",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "score": {
+                "name": "$race",
+                "objective": "whip"
+              },
+              "color": "white",
+              "italic": false
+            }
+        ]
+    ],
+    "replace": true
+  }
+]

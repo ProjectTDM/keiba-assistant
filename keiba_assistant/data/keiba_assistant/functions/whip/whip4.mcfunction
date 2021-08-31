@@ -1,0 +1,2 @@
+give @p carrot_on_a_stick{CustomModelData:4,display:{Name:'[{"text":"4番ゲート用"}]',Lore:['[{"text":"For gate 4","color":"white","italic":false}]','[{"text":"耐久値: 0 / 10","color":"white","italic":false}]','[{"text":"Durability: 0 / 10","color":"white","italic":false}]']}}
+scoreboard players set @s whip_click 0
