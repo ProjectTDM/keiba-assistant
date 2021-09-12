@@ -1,5 +1,3 @@
-#カウントダウンスタート
-function keiba_assistant:countdown/main
 #コマンドブロックの出力を止める
 gamerule commandBlockOutput false
 #時間計測のためtimeタグを与える
