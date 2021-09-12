@@ -1,4 +1,4 @@
-#スコアボードの設定
+#初期設定
 scoreboard objectives add whip dummy
 scoreboard objectives add whip_click used:carrot_on_a_stick
 scoreboard objectives add whip_Temporary dummy

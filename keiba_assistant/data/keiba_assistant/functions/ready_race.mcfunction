@@ -1,3 +1,7 @@
+#カウントダウンスタート
+function keiba_assistant:countdown/main
+#コマンドブロックの出力を止める
+gamerule commandBlockOutput false
 #時間計測のためtimeタグを与える
 tag @a[x=-32,y=69,z=422,dx=-10,dz=-5] add time
 #ここ2つの数字は揃える(この数字が使用可能回数と鞭に表示される耐久の上限として書かれる)

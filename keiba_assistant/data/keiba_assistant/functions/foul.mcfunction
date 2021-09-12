@@ -1,6 +1,6 @@
 #リタイア扱いにするためその人の時間のカウントを止める
-tag @p remove time
-# @sが使えなかったため@pで代用(不安要素)
-kill @p
+tag @s remove time
+#シメる
+kill @s
 #全体にコースの内側に入ったことの通知
-tellraw @a ["",{"selector":"@p"},{"text":"は不正をしようとしたので殺された"}]
+tellraw @a ["",{"selector":"@s"},{"text":"は不正をしようとしたので殺された"}]

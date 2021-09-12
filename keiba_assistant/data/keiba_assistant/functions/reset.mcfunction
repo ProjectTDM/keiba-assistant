@@ -5,7 +5,8 @@ scoreboard players reset @a whip
 #ゲームルールをもとに戻す
 gamerule keepInventory false
 gamerule showDeathMessages true
-#エラー時用に競馬でつく全てのタグの削除
+gamerule commandBlockOutput true
+#エラー発生時用に競馬でつく全てのタグの削除
 tag @a remove Questioner
 tag @a remove time
 tag @a remove kill

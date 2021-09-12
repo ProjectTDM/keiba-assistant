@@ -4,4 +4,4 @@ tag @s remove time
 tag @s remove kill
 kill @s
 #ここは「@sは不正解だったのでリタイアになった」でもいいかもしれない
-tellraw @a ["",{"selector":"@s"},{"text":"は不正解だったので"},{"selector":"@a[tag=Questioner]"},{"text":"に殺された"}]
+tellraw @a ["",{"selector":"@s"},{"text":"さんは不正解だったので"},{"selector":"@a[tag=Questioner]"},{"text":"に殺された"}]
