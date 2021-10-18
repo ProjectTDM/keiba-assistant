@@ -6,10 +6,11 @@ scoreboard players reset @a whip
 gamerule keepInventory false
 gamerule showDeathMessages true
 #エラー発生時用に競馬でつく全てのタグの削除
-tag @a remove Questioner
 tag @a remove time
 tag @a remove kill
 tag @e remove gate1
 tag @e remove gate2
 tag @e remove gate3
 tag @e remove gate4
+#titleの表示時間を戻す
+title @a times 10 70 20

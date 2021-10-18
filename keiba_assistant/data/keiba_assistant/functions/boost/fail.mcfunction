@@ -1,5 +1,5 @@
 #ブーストが使用できないことをアイテムスロットの上に表示
-title @s actionbar {"text":"もうこれ以上使用できない！","color":"red"}
+title @s actionbar {"translate":"title.keiba_assistant.cant_use","color":"dark_red","bold":true}
 #失敗音
 playsound minecraft:block.dispenser.fail master @s
 #周りに失敗したことをおしらせ(これで他プレイヤーが戦略を練れるように)

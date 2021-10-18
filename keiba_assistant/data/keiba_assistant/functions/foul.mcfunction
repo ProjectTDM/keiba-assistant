@@ -3,4 +3,4 @@ tag @s remove time
 #シメる
 kill @s
 #全体にコースの内側に入ったことの通知
-tellraw @a ["",{"selector":"@s"},{"text":"は不正をしようとしたので殺された"}]
+tellraw @s {"translate":"tellraw.keiba_assistant.foul","with":[{"selector":"@s"}]}

@@ -1,2 +1,2 @@
-give @p carrot_on_a_stick{CustomModelData:1,display:{Name:'[{"text":"1番ゲート用"}]',Lore:['[{"text":"For gate 1","color":"white","italic":false}]','[{"text":"耐久値: 0 / 10","color":"white","italic":false}]','[{"text":"Durability: 0 / 10","color":"white","italic":false}]']}}
+give @s carrot_on_a_stick{CustomModelData:1,display:{Name:'{"translate":"item.keiba_assistant.whip1","italic": false}',Lore:['{"translate":"item.durability","color": "white","italic": false,"with":["0","10"]}']}}
 scoreboard players set @s whip_click 0
