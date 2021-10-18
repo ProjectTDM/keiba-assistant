@@ -1,3 +1,4 @@
+#初回導入時にこれを実行してください
 #時間の記録を消す
 scoreboard players reset @a time
 #鞭の使用可能回数を0に
@@ -13,3 +14,5 @@ tag @e remove gate1
 tag @e remove gate2
 tag @e remove gate3
 tag @e remove gate4
+#鞭の使用可能回数リセット
+scoreboard players set $whip whip 10
