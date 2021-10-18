@@ -1,9 +1,12 @@
-#scheduleコマンドのせいで最初以外は音は出ないので音を鳴らす装置をワールドに置いといてください(リピーター3つ挟んで音符ブロックを置くのを2回するとと表示と合うようになります)
-##playsound block.note_block.harp master @a ~ ~ ~ 1 0 ←おすすめの音
+#音を鳴らす装置をワールドに置くか(リピーター3つ挟んで音符ブロックを置くと表示と合うようになります)下のコマンドの座標を鳴らしたい場所にそれぞれ変更してください(playsoundコマンドが書いてあるところをそれぞれのゲートの待機場所の座標に置き換えてください)
+##playsound block.note_block.harp master @a [座標を入力] 1 0
 #3
 title @a subtitle {"text":"スタートまで"}
 title @a title {"text":"3","color":"dark_green"}
-playsound block.note_block.harp master @a ~ ~ ~ 1 0
+playsound block.note_block.harp master @a -33.5 70.5 419.5 1 0
+playsound block.note_block.harp master @a -35.5 70.5 419.5 1 0
+playsound block.note_block.harp master @a -37.5 70.5 419.5 1 0
+playsound block.note_block.harp master @a -39.5 70.5 419.5 1 0
 #2
 schedule function keiba_assistant:countdown/2 20
 #1

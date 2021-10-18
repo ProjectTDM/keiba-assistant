@@ -1,7 +1,7 @@
 #タイム加算(tick)
 scoreboard players add @a[tag=time] time 1
 #ニンジン棒を持っているか検知
-execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}}] at @s run function keiba_assistant:carrot_on_a_stick
+execute as @a[predicate=keiba_assistant:carrot_on_a_stick] at @s run function keiba_assistant:carrot_on_a_stick
 #ゴール検知(座標はゴールテープ)念の為5マス判定
 execute as @a[predicate=keiba_assistant:goal] at @s run function keiba_assistant:goal
 #クイズモード用タグ検知
