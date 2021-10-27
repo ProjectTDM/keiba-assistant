@@ -1,9 +1,9 @@
 #コマンドブロックの出力を止める
 gamerule commandBlockOutput false
 #時間計測のためtimeタグを与える
-tag @a[predicate=keiba_assistant_color:wool/wool] add time
+tag @a[predicate=keiba_assistant_color:wool/wool] add keibatime
 # $whipのwhipから鞭の使用可能回数を取得する
-scoreboard players operation @a[tag=time] whip = $whip whip
+scoreboard players operation @a[tag=keibatime] keiba.whip = $whip keiba.whip
 #それぞれの馬ごとにタグを与える(このタグはそれぞれの鞭と連携している)
 #ゲートの下に羊毛を置くこと
 #1番から順に「白→オレンジ→赤紫→空→黄→黄緑→ピンク→灰→薄灰→青緑→紫→青→茶→緑→赤→黒」(参照:クリエイティブ)
@@ -24,7 +24,7 @@ tag @e[type=!minecraft:player,predicate=keiba_assistant_color:wool/green] add ga
 tag @e[type=!minecraft:player,predicate=keiba_assistant_color:wool/red] add gate15
 tag @e[type=!minecraft:player,predicate=keiba_assistant_color:wool/black] add gate16
 #順位表示用
-scoreboard players set $rank rank 1
+scoreboard players set $rank keiba.rank 1
 #カスタム死亡ログ(tellrawコマンド)を使う為無効化
 gamerule showDeathMessages false
 #死んだときアイテムが飛び散らないように

@@ -9,13 +9,13 @@
           {
             "score": {
               "name": "@s",
-              "objective": "whip"
+              "objective": "keiba.whip"
             }
           },
           {
             "score": {
               "name": "$whip",
-              "objective": "whip"
+              "objective": "keiba.whip"
             }
           }
         ],

@@ -1,5 +1,5 @@
 #クリック数をリセットしてまた検知できるように&ずっと実行されないように
-scoreboard players reset @s whip_click
+scoreboard players reset @s keiba.whip_click
 #その後のsuccess.mcfunctionでタグを付けるためそれぞれで分けている
 function keiba_assistant:boost/check1/check
 #success.mcfunctionでtagがついたときに乗っている動物に加速がつく

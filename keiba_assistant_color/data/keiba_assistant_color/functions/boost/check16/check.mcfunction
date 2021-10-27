@@ -1,2 +1,2 @@
-execute unless score @s whip >= $whip_uses whip_Temporary run function keiba_assistant_color:boost/fail
-execute if score @s whip >= $whip_uses whip_Temporary run function keiba_assistant_color:boost/check16/success
+execute unless score @s keiba.whip >= $whip_uses keiba.whip_Temp run function keiba_assistant_color:boost/fail
+execute if score @s keiba.whip >= $whip_uses keiba.whip_Temp run function keiba_assistant_color:boost/check16/success
