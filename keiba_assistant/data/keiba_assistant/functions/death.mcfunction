@@ -4,4 +4,4 @@ tag @s remove keibatime
 tag @s remove keibakill
 kill @s
 #カスタムキルログ
-tellraw @s {"translate":"tellraw.keiba_assistant.death","with":[{"selector":"@s"}]}
+tellraw @a {"translate":"tellraw.keiba_assistant.death","with":[{"selector":"@s"}]}
