@@ -4,9 +4,8 @@ gamerule commandBlockOutput false
 scoreboard objectives add keiba.whip dummy {"translate":"scoreboard.keiba_assistant.whip"}
 scoreboard objectives add keiba.whip_click used:carrot_on_a_stick
 scoreboard objectives add keiba.rank dummy
-scoreboard objectives add keiba.tick dummy
+scoreboard objectives add keiba.tick dummy {"translate":"scoreboard.keiba_assistant.tick"}
 scoreboard objectives add keiba.time dummy {"translate":"scoreboard.keiba_assistant.time"}
-scoreboard objectives setdisplay sidebar keiba.time
 scoreboard objectives add keiba. dummy
 scoreboard players add $keiba keiba. 1
 execute if score $keiba keiba. matches 1 run function keiba_assistant:reset_all

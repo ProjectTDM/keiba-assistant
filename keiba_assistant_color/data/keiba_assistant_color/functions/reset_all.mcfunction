@@ -31,3 +31,5 @@ title @a times 10 70 20
 scoreboard players set $whip keiba.whip 10
 #バグ対策
 execute as @a at @s run function keiba_assistant_color:enable
+#スコアボードリセット
+scoreboard objectives setdisplay sidebar keiba.time
