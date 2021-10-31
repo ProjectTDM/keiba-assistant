@@ -1,5 +1,5 @@
-#初回導入時にこれを実行してください
 #時間の記録を消す
+scoreboard players reset @a keiba.tick
 scoreboard players reset @a keiba.time
 #鞭の使用可能回数を0に
 scoreboard players reset @a keiba.whip
@@ -17,5 +17,5 @@ tag @e remove gate4
 title @a times 10 70 20
 #鞭の使用可能回数リセット
 scoreboard players set $whip keiba.whip 10
-#バグ用
+#バグ対策
 execute as @a at @s run function keiba_assistant:enable

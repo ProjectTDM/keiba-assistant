@@ -1,3 +1,3 @@
 tag @s add whipSucces8
-scoreboard players operation @s keiba.whip -= $whip_uses keiba.whip_Temp
+scoreboard players remove @s keiba.whip 1
 function keiba_assistant_color:boost/success

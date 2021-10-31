@@ -1,9 +1,10 @@
 #load.mcfunctionで作ったスコアボードの値を削除
 scoreboard objectives remove keiba.whip
 scoreboard objectives remove keiba.whip_click
-scoreboard objectives remove keiba.whip_Temp
 scoreboard objectives remove keiba.rank
+scoreboard objectives remove keiba.tick
 scoreboard objectives remove keiba.time
+scoreboard objectives remove keiba.
 #本関連
 scoreboard objectives remove keiba.whip1
 scoreboard objectives remove keiba.whip2
@@ -50,7 +51,7 @@ title @a times 10 70 20
 #データパックの無効化
 datapack disable "file/keiba_assistant_color"
 datapack disable "file/keiba_assistant_color.zip"
-tellraw @a ["",{"text":"競馬アシスタント- 簡易版 - ","color": "gold"},{"text":"のアンインストールが完了しました！datapackフォルダから削除してください"}]
+tellraw @a ["",{"text":"競馬アシスタント- カラー版 - ","color": "gold"},{"text":"のアンインストールが完了しました！datapackフォルダから削除してください"}]
 tellraw @a {"text":"プレイしていただきありがとうございました！","color": "green"}
-tellraw @a ["",{"text":"Uninstalling "},{"text":"Horse Racing Assistant - Simplified Version - ","color": "gold"},{"text":"is complete! Please remove it from the datapack folder."}]
+tellraw @a ["",{"text":"Uninstalling "},{"text":"Horse Racing Assistant - Color Edition - ","color": "gold"},{"text":"is complete! Please remove it from the datapack folder."}]
 tellraw @a {"text":"Thank you for playing!","color": "green"}

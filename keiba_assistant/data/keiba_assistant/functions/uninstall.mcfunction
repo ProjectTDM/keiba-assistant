@@ -1,9 +1,10 @@
 #load.mcfunctionで作ったスコアボードの値を削除
 scoreboard objectives remove keiba.whip
 scoreboard objectives remove keiba.whip_click
-scoreboard objectives remove keiba.whip_Temp
 scoreboard objectives remove keiba.rank
+scoreboard objectives remove keiba.tick
 scoreboard objectives remove keiba.time
+scoreboard objectives remove keiba.
 #本関連
 scoreboard objectives remove keiba.whip1
 scoreboard objectives remove keiba.whip2

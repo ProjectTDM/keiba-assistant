@@ -1,4 +1,5 @@
 #時間の記録を消す
+scoreboard players reset @a keiba.tick
 scoreboard players reset @a keiba.time
 #鞭の使用可能回数を0に
 scoreboard players reset @a keiba.whip

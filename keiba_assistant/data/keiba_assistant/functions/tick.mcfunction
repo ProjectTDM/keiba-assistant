@@ -1,5 +1,3 @@
-#タイム加算(tick)
-scoreboard players add @a[tag=keibatime] keiba.time 1
 #ニンジン棒を持っているか検知
 execute as @a[predicate=keiba_assistant:carrot_on_a_stick] at @s run function keiba_assistant:carrot_on_a_stick
 #ゴール検知(座標はゴールテープ)念の為5マス判定

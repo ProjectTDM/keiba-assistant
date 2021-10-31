@@ -1,13 +1,15 @@
 #コマンドログを無効化
 gamerule commandBlockOutput false
 #初期設定
-scoreboard objectives add keiba.whip dummy "ブースト使用可能回数"
+scoreboard objectives add keiba.whip dummy {"translate":"scoreboard.keiba_assistant.whip"}
 scoreboard objectives add keiba.whip_click used:carrot_on_a_stick
-scoreboard objectives add keiba.whip_Temp dummy
-scoreboard objectives add keiba.rank dummy "順位"
-scoreboard objectives add keiba.time dummy "競馬"
+scoreboard objectives add keiba.rank dummy
+scoreboard objectives add keiba.tick dummy
+scoreboard objectives add keiba.time dummy {"translate":"scoreboard.keiba_assistant.time"}
 scoreboard objectives setdisplay sidebar keiba.time
-scoreboard players set $whip_uses keiba.whip_Temp 1
+scoreboard objectives add keiba. dummy
+scoreboard players add $keiba keiba. 1
+execute if score $keiba keiba. matches 1 run function keiba_assistant_color:reset_all
 #本関連
 scoreboard objectives add keiba.whip1 trigger {"translate":"item.keiba_assistant.whip1"}
 scoreboard objectives add keiba.whip2 trigger {"translate":"item.keiba_assistant.whip2"}
