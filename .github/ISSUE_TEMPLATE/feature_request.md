@@ -1,20 +1,34 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
+name: バグ報告
+about: できる限り対応します
+title: "【バグ報告】-ここにタイトルを記入-"
+labels: bug
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**バグを説明してください**。
+そのバグが何であるかを明確かつ簡潔に記述してください。
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**再現方法**
+どうやってバグを起こせるか明確かつ簡潔に記入してください。
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**予期していた動作**
+何が起こると予想したかを明確かつ簡潔に記入してください。
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**スクリーンショット**
+必要に応じて、スクリーンショットを追加してください。
+
+**動作環境:**
+ - OS: (例: Windows 10)
+ - MEM(デバッグ画面右上の「MEM: X% Y/ZMB」のZMBの部分): (例: 2048MB)
+ - マイクラのバージョン: (例: Java1.17)
+ - データパックのバージョン: (例: v1.0)
+
+**PCスペック(良ければ)**
+ - CPU(プロセッサ): (例: Intel(R) Core(TM) i7-7700HQ)
+ - メモリ(実装RAM): (例: 16.0 GB)
+ - GPU: (例: NVIDIA GeForce GTX 1070)
+
+**追記**
+何かあれば
