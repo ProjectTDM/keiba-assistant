@@ -5,11 +5,12 @@ scoreboard objectives add keiba.whip dummy {"translate":"scoreboard.keiba_assist
 scoreboard objectives add keiba.whip_click used:carrot_on_a_stick
 scoreboard objectives add keiba.rank dummy
 scoreboard objectives add keiba.tick dummy
+scoreboard objectives add keiba.race dummy
 scoreboard objectives add keiba.time dummy {"translate":"scoreboard.keiba_assistant.time"}
 scoreboard objectives setdisplay sidebar keiba.time
 scoreboard objectives add keiba. dummy
-scoreboard players add $keiba keiba. 1
-execute if score $keiba keiba. matches 1 run function keiba_assistant_color:reset_all
+execute unless score $keiba keiba. matches 1 run function keiba_assistant_color:reset_all
+scoreboard players set $keiba keiba. 1
 #本関連
 scoreboard objectives add keiba.whip1 trigger {"translate":"item.keiba_assistant.whip1"}
 scoreboard objectives add keiba.whip2 trigger {"translate":"item.keiba_assistant.whip2"}

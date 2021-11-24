@@ -1,3 +1,6 @@
+#レース開始
+scoreboard players reset @a keiba.whip_click
+scoreboard players set $race keiba.race 1
 #titleの表示時間変更
 title @a times 10 15 10
 #音を鳴らす装置をワールドに置くか(リピーター3つ挟んで音符ブロックを置くと表示と合うようになります)下のコマンドの座標を鳴らしたい場所にそれぞれ変更してください(playsoundコマンドが書いてあるところをそれぞれのゲートの待機場所の座標に置き換えてください)

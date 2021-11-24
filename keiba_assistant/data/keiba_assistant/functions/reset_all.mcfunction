@@ -1,3 +1,5 @@
+#レース終了
+scoreboard players reset $race keiba.race
 #時間の記録を消す
 scoreboard players reset @a keiba.tick
 scoreboard players reset @a keiba.time
