@@ -1,4 +1,4 @@
-# keiba-assistant ![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17-brightgreen) ![サイズ](https://img.shields.io/github/languages/code-size/tunakaniri/keiba-assistant) ![バージョン(タグ)](https://img.shields.io/github/v/release/tunakaniri/keiba-assistant?display_name=tag&include_prereleases) ![ライセンス](https://img.shields.io/github/license/tunakaniri/keiba-assistant)
+# keiba-assistant ![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17-brightgreen)
 <div style="text-align: right;">
 【右揃えにする文章を記述】
 </div>
