@@ -1,6 +1,7 @@
-# keiba-assistant ![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange)
+# keiba-assistant ![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) ![必須](https://img.shields.io/badge/Required-tunacan--resourcepacks-blue)
 マイクラでレース場さえ用意すれば競馬ができるデータパック
-[tunacan-resourcepacks](https://github.com/tunakaniri/tunacan-resourcepacks/)必須
+- ~v2.3.0 1.17版
+- v3.0.0~ 1.18版
 # コマンド参考
 [【ほぼ全マイクラ対応】ゲーム内レースの着順とタイムを確認できるようにする【ゆっくり実況】](https://www.youtube.com/watch?v=_62plmjywOQ)
 # ゲート回路例(これを基にデータパックを作っています)
