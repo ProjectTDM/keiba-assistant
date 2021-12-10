@@ -1,6 +1,6 @@
 {
   "condition": "minecraft:location_check",
-  "offsetY": -1,
+  "offsetY": -4,
   "predicate": {
     "block": {
       "tag": "minecraft:wool"
