@@ -1,4 +1,4 @@
-# keiba-assistant ![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18.1-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) ![必須](https://img.shields.io/badge/Required-tunacan--resourcepacks-blue) ![管理者権限](https://img.shields.io/badge/NeedOP-Admin%20Only-lightgrey)
+# keiba-assistant ![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18.1-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) ![必須](https://img.shields.io/badge/Required-tunacan--resourcepacks-blue) ![管理者権限](https://img.shields.io/badge/Need%20OP-Admin%20Only-lightgrey)
 マイクラでレース場さえ用意すれば競馬ができるデータパック
 - ~v2.3.0 1.17版
 - v3.0.0~ 1.18版
