@@ -27,6 +27,7 @@ title @a times 10 70 20
 #データパックの無効化
 datapack disable "file/keiba_assistant"
 datapack disable "file/keiba_assistant.zip"
+#アンインストール完了メッセージ(リソースパック不要)
 tellraw @a ["",{"text":"競馬アシスタント","color": "gold"},{"text":"のアンインストールが完了しました！datapackフォルダから削除してください"}]
 tellraw @a {"text":"プレイしていただきありがとうございました！","color": "green"}
 tellraw @a ["",{"text":"Uninstalling "},{"text":"Horse Racing Assistant ","color": "gold"},{"text":"is complete! Please remove it from the datapack folder."}]
