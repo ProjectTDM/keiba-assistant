@@ -1,4 +1,4 @@
-title @a title {"text":"2","color":"yellow"}
+title @a title {"text":"2","bold": true,"color":"yellow"}
 playsound block.note_block.harp master @a 5.50 63.50 10.50 1 0
 playsound block.note_block.harp master @a 5.50 63.50 12.50 1 0
 playsound block.note_block.harp master @a 5.50 63.50 14.50 1 0
