@@ -7,7 +7,7 @@
 
 # お知らせ
 - このデータパックに**賭け要素**は含まれていません。
-  - 理由としては、[Minecraft COMMERCIAL USAGE GUIDELINES](https://www.minecraft.net/ja-jp/terms#terms-commercial_guidelines)の「サーバーとホスティング」に以下のように記載されているためです。(商用利用されない方向けにDiscussionsにてアドオンを配布予定(配布予定時期は未定))
+  - 理由としては、[Minecraft COMMERCIAL USAGE GUIDELINES](https://www.minecraft.net/ja-jp/terms#terms-commercial_guidelines)の「サーバーとホスティング」に以下のように記載されているためです。(商用利用されない方向けにDiscussionsにてアドオンを配布予定(配布時期は未定))
 >上記のいずれの場合においても、お客様は以下のことを確実にする必要があります。
 >
 >- すべてのサーバー、資格、広告は、子どもや未成年者に適しており (**ギャンブル**、ポルノなどを**使用しない**)、ブランドに害を及ぼさない
