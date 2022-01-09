@@ -5,7 +5,7 @@
 - ~v2.3.0 1.17版
 - v3.0.0~ 1.18版
 
-# お知らせ
+# 注意
 - このデータパックに**賭け要素**は含まれていません。
   - 理由としては、[Minecraft COMMERCIAL USAGE GUIDELINES](https://www.minecraft.net/ja-jp/terms#terms-commercial_guidelines)の「サーバーとホスティング」に以下のように記載されているためです。(商用利用されない方向けにDiscussionsにてアドオンを配布予定(配布時期は未定))
 >上記のいずれの場合においても、お客様は以下のことを確実にする必要があります。
