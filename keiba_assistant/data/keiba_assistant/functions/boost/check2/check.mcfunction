@@ -1,2 +1,2 @@
-execute unless score @s keiba.whip matches 1.. run function keiba_assistant:boost/fail
-execute if score @s keiba.whip matches 1.. run function keiba_assistant:boost/check2/success
+execute unless score @s keiba.remain matches 1.. run function keiba_assistant:boost/fail
+execute if score @s keiba.remain matches 1.. run function keiba_assistant:boost/check2/success

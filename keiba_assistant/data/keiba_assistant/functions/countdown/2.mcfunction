@@ -1,5 +1,3 @@
-title @a title {"text":"2","bold": true,"color":"yellow"}
-playsound block.note_block.harp master @a -33.5 70.5 419.5 1 0
-playsound block.note_block.harp master @a -35.5 70.5 419.5 1 0
-playsound block.note_block.harp master @a -37.5 70.5 419.5 1 0
-playsound block.note_block.harp master @a -39.5 70.5 419.5 1 0
+title @s subtitle {"translate":"title.keiba_assistant.ready_start","bold":true}
+title @s title {"text":"2","bold":true,"color":"yellow"}
+playsound block.note_block.harp master @s ~ ~ ~ 1 0

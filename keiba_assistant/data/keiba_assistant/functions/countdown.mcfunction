@@ -1,27 +1,18 @@
-#レース開始
-scoreboard players reset @a keiba.whip_click
+#リセット
+function keiba_assistant:reset
+#レース開始(tick.mcfunction用)
 scoreboard players set $race keiba.race 1
-
+#馬と騎乗者のeffectクリア(1→有効)
+execute as @e[predicate=keiba_assistant:gate/root] if score $race keiba.effectc matches 1 run effect clear @s
+#賭けアドオン用
+function keiba_assistant:gambling/countdown
 #titleの表示時間変更
 title @a times 10 15 10
-
-#音を鳴らす装置をワールドに置く(リピーター3つ(最大遅延2つ、2遅延(クリック一回)1つ)挟んで音符ブロックを置くと表示と合うようになります)
-#または下のコマンドの座標を鳴らしたい場所にそれぞれ変更してください(playsoundコマンドが書いてあるところをそれぞれのゲートの待機場所の座標に置き換えてください(VSCodeならCtrl+Shift+Hでまとめて置換できます))
-##playsound block.note_block.harp master @a [座標を入力] 1 0
-
-#3
-title @a subtitle {"translate":"title.keiba_assistant.ready_start","bold": true}
-title @a title {"text":"3","bold": true,"color":"dark_green"}
-playsound block.note_block.harp master @a -33.5 70.5 419.5 1 0
-playsound block.note_block.harp master @a -35.5 70.5 419.5 1 0
-playsound block.note_block.harp master @a -37.5 70.5 419.5 1 0
-playsound block.note_block.harp master @a -39.5 70.5 419.5 1 0
-
-#2
-schedule function keiba_assistant:countdown/2 20
-
-#1
-schedule function keiba_assistant:countdown/1 40
-
-#スタート
-schedule function keiba_assistant:countdown/start 60
+#本を無効化
+scoreboard players reset @a keiba.whip
+scoreboard players reset @a keiba.clear
+#ニンジン付きの棒のクリック進捗をリセット(スタートした瞬間にブーストを使い切らないように)
+advancement revoke @a through keiba_assistant:click/root
+#カウントダウンスタート
+data modify storage keiba_assistant:count 1tick set value 85
+function keiba_assistant:countdown/

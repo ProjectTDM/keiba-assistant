@@ -1,0 +1,29 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "player": {
+          "advancements": {
+            "keiba_assistant:whip/whip3": true
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "passenger": {
+          "player": {
+            "advancements": {
+              "keiba_assistant:whip/whip3": true
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,23 +1,17 @@
-#レース終了
-scoreboard players reset $race keiba.race
-#時間の記録を消す
-scoreboard players reset @a keiba.tick
-scoreboard players reset @a keiba.time
-#鞭の使用可能回数を0に
+#通常リセット
+function keiba_assistant:reset
+#鞭を回収/予約のキャンセル
+execute as @a run function keiba_assistant:whip/take/whip1
+execute as @a run function keiba_assistant:whip/take/whip2
+execute as @a run function keiba_assistant:whip/take/whip3
+execute as @a run function keiba_assistant:whip/take/whip4
+#鞭のadvancementを削除
+advancement revoke @a through keiba_assistant:whip/root
+#鞭取得のリセット
 scoreboard players reset @a keiba.whip
-#ゲームルールをもとに戻す
-gamerule keepInventory false
-gamerule showDeathMessages true
-#エラー発生時用に競馬でつく全てのタグの削除
-tag @a remove keibatime
-tag @a remove keibakill
-tag @e remove gate1
-tag @e remove gate2
-tag @e remove gate3
-tag @e remove gate4
-#titleの表示時間を戻す
-title @a times 10 70 20
+#鞭取得の有効化
+scoreboard players enable @a keiba.whip
 #鞭の使用可能回数リセット
-scoreboard players set $whip keiba.whip 10
-#バグ対策
-execute as @a at @s run function keiba_assistant:enable
+scoreboard players set $whip keiba.remain 10
+#レース前のeffect削除を有効化
+scoreboard players set $race keiba.effectc 1

@@ -1,0 +1,11 @@
+{
+  "parent": "keiba_assistant:whip/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "keiba_assistant:whip/give/whip4"
+  }
+}

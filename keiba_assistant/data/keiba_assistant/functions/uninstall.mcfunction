@@ -1,34 +1,33 @@
-#load.mcfunctionで作ったスコアボードの値を削除
-scoreboard objectives remove keiba.whip
-scoreboard objectives remove keiba.whip_click
+#load.mcfunctionでの変更をリセット
+scoreboard objectives remove keiba.remain
 scoreboard objectives remove keiba.rank
 scoreboard objectives remove keiba.tick
-scoreboard objectives remove keiba.race
 scoreboard objectives remove keiba.time
+scoreboard objectives remove keiba.race
+scoreboard objectives remove keiba.effectc
+scoreboard objectives remove keiba.whip
+scoreboard objectives remove keiba.clear
 scoreboard objectives remove keiba.
-#本関連
-scoreboard objectives remove keiba.whip1
-scoreboard objectives remove keiba.whip2
-scoreboard objectives remove keiba.whip3
-scoreboard objectives remove keiba.whip4
-scoreboard objectives remove keiba.whip.clear
-tag @a remove keibabook
-#reset.mcfunctionとscoreboard以外同じものを実行
-gamerule commandBlockOutput true
-gamerule keepInventory false
-gamerule showDeathMessages true
+scoreboard objectives remove keiba.ver
+#reset_all.mcfunctionのうち上記と競合するもの以外を実行
 tag @a remove keibatime
 tag @a remove keibakill
-tag @e remove gate1
-tag @e remove gate2
-tag @e remove gate3
-tag @e remove gate4
-title @a times 10 70 20
+tag @e remove keibagate1
+tag @e remove keibagate2
+tag @e remove keibagate3
+tag @e remove keibagate4
+gamerule keepInventory false
+gamerule showDeathMessages true
+title @a reset
+execute as @a run function keiba_assistant:whip/take/whip1
+execute as @a run function keiba_assistant:whip/take/whip2
+execute as @a run function keiba_assistant:whip/take/whip3
+execute as @a run function keiba_assistant:whip/take/whip4
 #データパックの無効化
 datapack disable "file/keiba_assistant"
 datapack disable "file/keiba_assistant.zip"
 #アンインストール完了メッセージ(リソースパック不要)
-tellraw @a ["",{"text":"競馬アシスタント","color": "gold"},{"text":"のアンインストールが完了しました！datapackフォルダから削除してください"}]
-tellraw @a {"text":"プレイしていただきありがとうございました！","color": "green"}
-tellraw @a ["",{"text":"Uninstalling "},{"text":"Horse Racing Assistant ","color": "gold"},{"text":"is complete! Please remove it from the datapack folder."}]
-tellraw @a {"text":"Thank you for playing!","color": "green"}
+tellraw @a ["",{"text":"競馬アシスタント[v3.0.1]","color":"gold"},{"text":"のアンインストールが完了しました！"}]
+tellraw @a {"text":"プレイしていただきありがとうございました！","color":"green"}
+tellraw @a ["",{"text":"Uninstalling "},{"text":"Horse Racing Assistant[v3.0.1] ","color":"gold"},{"text":"is complete!"}]
+tellraw @a {"text":"Thank you for playing!","color":"green"}
