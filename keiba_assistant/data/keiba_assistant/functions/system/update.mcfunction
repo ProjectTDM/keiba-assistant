@@ -16,10 +16,15 @@ scoreboard objectives remove keiba.whip3
 scoreboard objectives remove keiba.whip4
 scoreboard objectives remove keiba.whip.clear
 scoreboard objectives remove keiba.whip_click
+tag @a remove keibakill
 tag @a remove whipSucces1
 tag @a remove whipSucces2
 tag @a remove whipSucces3
 tag @a remove whipSucces4
+tag @e remove keibagate1
+tag @e remove keibagate2
+tag @e remove keibagate3
+tag @e remove keibagate4
 clear @a carrot_on_a_stick{CustomModelData:1}
 clear @a carrot_on_a_stick{CustomModelData:2}
 clear @a carrot_on_a_stick{CustomModelData:3}

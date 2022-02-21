@@ -11,6 +11,6 @@
     }
   },
   "rewards": {
-    "function": "keiba_assistant:boost/check4/check"
+    "function": "keiba_assistant:boost/check"
   }
 }

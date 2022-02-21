@@ -12,7 +12,7 @@
               "entity": "this",
               "name": {
                 "translate": "item.keiba_assistant.whip4",
-                "color": "red",
+                "color": "dark_green",
                 "italic": false
               }
             },

@@ -1,10 +1,9 @@
 #時間計測のため鞭を持っている人にtimeタグを与える
-tag @a[predicate=keiba_assistant:whip/root] add keibatime
-#それぞれの馬及び騎乗者ごとにタグを与える(このタグはそれぞれの鞭と連携している)
-tag @e[predicate=keiba_assistant:gate/gate1] add keibagate1
-tag @e[predicate=keiba_assistant:gate/gate2] add keibagate2
-tag @e[predicate=keiba_assistant:gate/gate3] add keibagate3
-tag @e[predicate=keiba_assistant:gate/gate4] add keibagate4
+tag @a[advancements={keiba_assistant:whip/root=true}] add keibatime
+#スタート前effectが無効化されているときに馬と騎乗者のeffect解除
+execute unless score $race keiba.effect matches 1 run effect clear @e[tag=keibatime]
+#馬と騎乗者のeffect付与(1→有効)
+execute if score $race keiba.effect matches 1 run function keiba_assistant:effect
 #$whipのkeiba.remainから鞭の使用可能回数を取得し、レース中のプレイヤー全員のkeiba.remainに代入
 scoreboard players operation @a[tag=keibatime] keiba.remain = $whip keiba.remain
 #タイムを表示

@@ -9,8 +9,8 @@ scoreboard objectives add keiba.tick dummy
 scoreboard objectives add keiba.time dummy {"translate":"scoreboard.keiba_assistant.time"}
 ##レース中かどうか
 scoreboard objectives add keiba.race dummy
-##レース前のeffect削除を有効にするか
-scoreboard objectives add keiba.effectc dummy
+##レース前のeffect付与を有効にするか
+scoreboard objectives add keiba.effect dummy "effect"
 #本関連
 scoreboard objectives add keiba.whip trigger
 scoreboard objectives add keiba.clear trigger
@@ -19,6 +19,6 @@ scoreboard objectives add keiba. dummy
 #アップデート用
 scoreboard objectives add keiba.ver dummy
 #以上表記なのはv2.2~v2.2.1はsetじゃなくてaddを使っていたため
-execute unless score $keiba keiba. matches 1.. run function keiba_assistant:welcome
+execute unless score $keiba keiba. matches 1.. run function keiba_assistant:system/welcome
 #以上表記なのはダウングレード(?)に対応していないため
-execute unless score $keiba keiba.ver matches 1.. run function keiba_assistant:update
+execute unless score $keiba keiba.ver matches 1.. run function keiba_assistant:system/update
