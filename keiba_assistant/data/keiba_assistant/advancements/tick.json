@@ -1,15 +1,15 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-          "nbt": "{Tags:[keibatime]}"
+  "criteria":{
+    "requirement":{
+      "trigger":"minecraft:tick",
+      "conditions":{
+        "player":{
+          "nbt":"{Tags:[keibatime]}"
         }
       }
     }
   },
-  "rewards": {
-    "function": "keiba_assistant:time/tick"
+  "rewards":{
+    "function":"keiba_assistant:time/tick"
   }
 }

@@ -8,7 +8,7 @@ advancement grant @s only keiba_assistant:whip/root
 ##名前取得の前準備
 function keiba_assistant:whip/give/
 ##チェスト付きトロッコに持たせたplayerheadから名前情報を抽出してstorageに記録
-data modify storage keiba_assistant:whip 1 set from entity @e[tag=keibahead,sort=nearest,limit=1] Items[0].tag.SkullOwner.Name
+data modify storage keiba_assistant: whip.1 set from entity @e[tag=keibahead,sort=nearest,limit=1] Items[0].tag.SkullOwner.Name
 ##playerheadを削除
 item replace entity @e[tag=keibahead,sort=nearest,limit=1] container.0 with air
 ##チェスト付きトロッコをkill

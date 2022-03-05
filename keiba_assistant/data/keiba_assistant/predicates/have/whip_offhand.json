@@ -1,14 +1,14 @@
 {
-  "condition": "minecraft:entity_properties",
-  "entity": "this",
-  "predicate": {
-    "type": "minecraft:player",
-    "equipment": {
-      "offhand": {
-        "items": [
+  "condition":"minecraft:entity_properties",
+  "entity":"this",
+  "predicate":{
+    "type":"minecraft:player",
+    "equipment":{
+      "offhand":{
+        "items":[
           "minecraft:crossbow"
         ],
-        "nbt": "{tag:keibawhip}"
+        "nbt":"{tag:keibawhip}"
       }
     }
   }

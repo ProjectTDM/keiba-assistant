@@ -1,2 +1,0 @@
-#チャット欄で実行したコマンドのログを表示
-gamerule sendCommandFeedback true

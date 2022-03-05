@@ -14,7 +14,7 @@
           },
           {
             "score": {
-              "name": "$whip",
+              "name": "$keiba",
               "objective": "keiba.remain"
             }
           }
@@ -24,9 +24,5 @@
       }
     ],
     "replace": true
-  },
-  {
-    "function": "minecraft:set_nbt",
-    "tag": "{Charged:1b}"
   }
 ]

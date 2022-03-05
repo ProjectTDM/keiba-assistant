@@ -1,49 +1,49 @@
 {
-  "pools": [
+  "pools":[
     {
-      "rolls": 1,
-      "entries": [
+      "rolls":1,
+      "entries":[
         {
-          "type": "minecraft:item",
-          "name": "minecraft:crossbow",
-          "functions": [
+          "type":"minecraft:item",
+          "name":"minecraft:crossbow",
+          "functions":[
             {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": {
-                "translate": "item.keiba_assistant.whip4",
-                "color": "dark_green",
-                "italic": false
+              "function":"minecraft:set_name",
+              "entity":"this",
+              "name":{
+                "translate":"item.keiba_assistant.whip4",
+                "color":"dark_green",
+                "italic":false
               }
             },
             {
-              "function": "minecraft:set_lore",
-              "entity": "this",
-              "lore": [
+              "function":"minecraft:set_lore",
+              "entity":"this",
+              "lore":[
                 {
-                  "translate": "item.keiba_assistant.boost",
-                  "with": [
+                  "translate":"item.keiba_assistant.boost",
+                  "with":[
                     {
-                      "score": {
-                        "name": "@s",
-                        "objective": "keiba.remain"
+                      "score":{
+                        "name":"@s",
+                        "objective":"keiba.remain"
                       }
                     },
                     {
-                      "score": {
-                        "name": "$whip",
-                        "objective": "keiba.remain"
+                      "score":{
+                        "name":"$keiba",
+                        "objective":"keiba.remain"
                       }
                     }
                   ],
-                  "color": "white",
-                  "italic": false
+                  "color":"white",
+                  "italic":false
                 }
               ]
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4,tag:keibawhip,keiba.whip:4,Charged:1b}"
+              "function":"minecraft:set_nbt",
+              "tag":"{CustomModelData:4,tag:keibawhip,keiba.whip:4,Charged:1b}"
             }
           ]
         }

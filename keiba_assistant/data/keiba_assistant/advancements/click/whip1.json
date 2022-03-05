@@ -1,16 +1,16 @@
 {
-  "parent": "keiba_assistant:click/root",
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:shot_crossbow",
-      "conditions": {
-        "item": {
-          "nbt": "{keiba.whip:1}"
+  "parent":"keiba_assistant:click/root",
+  "criteria":{
+    "requirement":{
+      "trigger":"minecraft:shot_crossbow",
+      "conditions":{
+        "item":{
+          "nbt":"{keiba.whip:1}"
         }
       }
     }
   },
-  "rewards": {
-    "function": "keiba_assistant:boost/check"
+  "rewards":{
+    "function":"keiba_assistant:boost/check"
   }
 }
