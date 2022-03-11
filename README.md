@@ -1,5 +1,5 @@
 # keiba-assistant [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/ProjectTDM/keiba-assistant) <!-- ![ダウンロード数](https://img.shields.io/github/downloads/tunakaniri/keiba-assistant/total) -->
-![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18.1-brightgreen.svg) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) [![必須](https://img.shields.io/badge/Required-tunakan--resourcepack-blue)](../../../tunakan-resourcepack) ![管理者権限](https://img.shields.io/badge/Need%20OP-Admin%20Only-lightgrey)
+![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18.1-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) [![必須](https://img.shields.io/badge/Required-tunakan--resourcepack-blue)](../../../tunakan-resourcepack) ![管理者権限](https://img.shields.io/badge/Need%20OP-Admin%20Only-lightgrey)
 
 マイクラでレース場さえ用意すれば競馬ができるデータパック
 - ~v2.3.0 1.17版
