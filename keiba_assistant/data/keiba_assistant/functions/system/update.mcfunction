@@ -1,14 +1,14 @@
-#v2.0
+# v2.0
 scoreboard objectives remove runk
-#v2.1
+# v2.1
 scoreboard objectives remove whip
 scoreboard objectives remove whip_click
 scoreboard objectives remove whip_Temporary
 scoreboard objectives remove rank
 scoreboard objectives remove time
-#v2.2
+# v2.2
 scoreboard objectives remove keiba.whip_Temp
-#v4.0.0
+# v4.0.0
 scoreboard objectives remove keiba.whip
 scoreboard objectives remove keiba.whip1
 scoreboard objectives remove keiba.whip2
@@ -29,8 +29,8 @@ clear @a carrot_on_a_stick{CustomModelData:1}
 clear @a carrot_on_a_stick{CustomModelData:2}
 clear @a carrot_on_a_stick{CustomModelData:3}
 clear @a carrot_on_a_stick{CustomModelData:4}
-#アップデート済みにする
+# アップデート済みにする
 scoreboard players set $keiba keiba.update 1
-#アップデート完了
+# アップデート完了
 reload
 tellraw @a {"text":"[Server] Update completed!"}

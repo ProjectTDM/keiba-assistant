@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ oak_wall_sign if blocks ~0 ~0.3515625 ~ ~0 ~0.3515625 ~ ~ ~ ~ all if blocks ~-0.59375 ~-0.5442708333333334 ~ ~-0.59375 ~-0.5442708333333334 ~ ~ ~ ~ all run execute if data storage keiba_assistant:sign south[5] run data remove storage keiba_assistant:sign south[-1]
+execute if block ~ ~ ~ oak_wall_sign if blocks ~0.59375 ~0.3515625 ~ ~0.59375 ~0.3515625 ~ ~ ~ ~ all if blocks ~0 ~-0.5338541666666666 ~ ~0 ~-0.5338541666666666 ~ ~ ~ ~ all run execute unless data storage keiba_assistant:sign south[8] run data modify storage keiba_assistant:sign south append value {}
+data modify block ~ ~ ~ Text3 set value '{"nbt":"south[-5].Text3","storage":"keiba_assistant:sign","interpret":true}'

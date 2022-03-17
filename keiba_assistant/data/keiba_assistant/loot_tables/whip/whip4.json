@@ -5,13 +5,18 @@
       "entries":[
         {
           "type":"minecraft:item",
-          "name":"minecraft:crossbow",
+          "name":"minecraft:carrot_on_a_stick",
           "functions":[
             {
               "function":"minecraft:set_name",
               "entity":"this",
               "name":{
-                "translate":"item.keiba_assistant.whip4",
+                "translate":"item.keiba_assistant.whip",
+                "with":[
+                  {
+                    "text":"4"
+                  }
+                ],
                 "color":"dark_green",
                 "italic":false
               }

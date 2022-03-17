@@ -2,11 +2,10 @@
   "condition":"minecraft:entity_properties",
   "entity":"this",
   "predicate":{
-    "type":"minecraft:player",
     "equipment":{
       "offhand":{
         "items":[
-          "minecraft:crossbow"
+          "minecraft:carrot_on_a_stick"
         ],
         "nbt":"{tag:keibawhip}"
       }
