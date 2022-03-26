@@ -3,6 +3,3 @@
 function keiba_assistant:reset_whip
 # 鞭の使用可能回数リセット
 scoreboard players set $keiba keiba.remain 10
-# すべてのアイテムの没収
-clear @a written_book{tag:keibabook}
-clear @a oak_sign{tag:keibasign}

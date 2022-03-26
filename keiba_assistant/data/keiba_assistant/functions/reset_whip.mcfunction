@@ -1,28 +1,18 @@
 # 通常リセット
 function keiba_assistant:reset
-# プレイヤー名を取得するためのタグの付いたエンティティをkill
-kill @e[tag=keibahead]
 # 鞭を回収/予約のキャンセル
 clear @a carrot_on_a_stick{tag:keibawhip}
-data modify storage keiba_assistant: reserve.1 set value 0
-data modify storage keiba_assistant: reserve.2 set value 0
-data modify storage keiba_assistant: reserve.3 set value 0
-data modify storage keiba_assistant: reserve.4 set value 0
+data modify storage keiba_assistant: whip.1 set value '{"translate":"item.keiba_assistant.whip","color":"dark_green","with":[{"text":1}]}'
+data modify storage keiba_assistant: whip.2 set value '{"translate":"item.keiba_assistant.whip","color":"dark_green","with":[{"text":2}]}'
+data modify storage keiba_assistant: whip.3 set value '{"translate":"item.keiba_assistant.whip","color":"dark_green","with":[{"text":3}]}'
+data modify storage keiba_assistant: whip.4 set value '{"translate":"item.keiba_assistant.whip","color":"dark_green","with":[{"text":4}]}'
 # 鞭のadvancementを削除
 advancement revoke @a through keiba_assistant:whip/root
+# 鞭番号リセット
+scoreboard players reset * keiba.whip
 # 鞭取得のリセット
-scoreboard players reset @a keiba.whip
+scoreboard players reset @a keiba.give
 # 鞭返却のリセット
 scoreboard players reset @a keiba.clear
-# 時間の記録を消す
-scoreboard players reset @a keiba.tick
-scoreboard players reset @a keiba.time
-# 順位リセット
-scoreboard players reset @a keiba.rank
-scoreboard players reset $keiba keiba.rank
 # 鞭取得の有効化
-scoreboard players enable @a keiba.whip
-# 賭けアドオン用
-function keiba_assistant:gamble/reset
-# クイズアドオン用
-function keiba_assistant:quiz/reset
+scoreboard players enable @a keiba.give

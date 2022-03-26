@@ -1,14 +1,12 @@
 # リセット
 function keiba_assistant:reset
-# レース開始(tick.mcfunction用)
-scoreboard players set $keiba keiba.race 1
+# カウントダウン開始(commandbook用)
+data modify storage keiba_assistant: status set value '{"translate":"storage.keiba_assistant.countdown","color":"gold"}'
 # 賭けアドオン用
 function keiba_assistant:gamble/countdown
 # titleの表示時間変更
 title @a times 10 15 10
-# 本を無効化
-scoreboard players reset @a keiba.whip
-scoreboard players reset @a keiba.clear
-# カウントダウンスタート
+# 時間設定
 data modify storage keiba_assistant: countdown set value 81
+# カウントダウンスタート
 function keiba_assistant:countdown/

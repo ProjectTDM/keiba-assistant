@@ -1,2 +1,2 @@
-execute as @s unless data storage keiba_assistant: {reserve:{3:0}} run function keiba_assistant:whip/reserve/whip3
-execute as @s if data storage keiba_assistant: {reserve:{3:0}} run advancement grant @s only keiba_assistant:whip/whip3
+execute as @s if data storage keiba_assistant: {whip:{3:'{"translate":"item.keiba_assistant.whip","color":"dark_red","with":[{"text":3}]}'}} run function keiba_assistant:whip/reserved
+execute as @s if data storage keiba_assistant: {whip:{3:'{"translate":"item.keiba_assistant.whip","color":"dark_green","with":[{"text":3}]}'}} run advancement grant @s until keiba_assistant:whip/whip3
