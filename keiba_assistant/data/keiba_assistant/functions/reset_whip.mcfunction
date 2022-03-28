@@ -6,8 +6,6 @@ data modify storage keiba_assistant: whip.1 set value '{"translate":"item.keiba_
 data modify storage keiba_assistant: whip.2 set value '{"translate":"item.keiba_assistant.whip","color":"dark_green","with":[{"text":2}]}'
 data modify storage keiba_assistant: whip.3 set value '{"translate":"item.keiba_assistant.whip","color":"dark_green","with":[{"text":3}]}'
 data modify storage keiba_assistant: whip.4 set value '{"translate":"item.keiba_assistant.whip","color":"dark_green","with":[{"text":4}]}'
-# 鞭のadvancementを削除
-advancement revoke @a through keiba_assistant:whip/root
 # 鞭番号リセット
 scoreboard players reset * keiba.whip
 # 鞭取得のリセット

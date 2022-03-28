@@ -7,6 +7,8 @@ gamerule keepInventory true
 gamerule showDeathMessages false
 ## アイテムが消えないように即時リスポーンを有効化
 gamerule doImmediateRespawn true
+# すぐに戻れるようにスポーンポイントのセット
+spawnpoint @s ~ ~ ~
 # 不正を犯したものをkill
 kill @s
 # 当事者の時間の記録を削除
