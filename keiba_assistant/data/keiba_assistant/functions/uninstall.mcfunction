@@ -1,4 +1,4 @@
-# scoreboardの内容を削除
+# scoreboardの削除
 scoreboard objectives remove keiba.clear
 scoreboard objectives remove keiba.click
 scoreboard objectives remove keiba.give
@@ -35,3 +35,6 @@ tellraw @a [{"text":"競馬アシスタント","color":"gold"},{"text":"のア�
 tellraw @a {"text":"プレイしていただきありがとうございました！","color":"green"}
 tellraw @a [{"text":"Uninstalled "},{"text":"Horse Racing Assistant","color":"gold"},{"text":" is complete!"}]
 tellraw @a {"text":"Thank you for playing!","color":"green"}
+# アドオン削除
+function keiba_assistant:quiz/uninstall
+function keiba_assistant:gamble/uninstall

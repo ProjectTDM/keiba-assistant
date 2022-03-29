@@ -1,7 +1,6 @@
-# 使わないものを削除
-## v2.0
+# v2.0
 scoreboard objectives remove runk
-## v2.1
+# v2.1
 scoreboard objectives remove whip
 scoreboard objectives remove whip_click
 scoreboard objectives remove whip_Temporary
@@ -9,9 +8,9 @@ scoreboard objectives remove rank
 scoreboard objectives remove time
 tag @a remove time
 tag @a remove kill
-## v2.2
+# v2.2
 scoreboard objectives remove keiba.whip_Temp
-## v4.0.0
+# v4.0.0
 scoreboard objectives remove keiba.
 scoreboard objectives remove keiba.give
 scoreboard objectives remove keiba.whip1
