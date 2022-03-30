@@ -36,5 +36,5 @@ tellraw @a {"text":"プレイしていただきありがとうございました
 tellraw @a [{"text":"Uninstalled "},{"text":"Horse Racing Assistant","color":"gold"},{"text":" is complete!"}]
 tellraw @a {"text":"Thank you for playing!","color":"green"}
 # アドオン削除
-function keiba_assistant:quiz/uninstall
-function keiba_assistant:gamble/uninstall
+function keiba_assistant_quiz:uninstall
+function keiba_assistant_gamble:uninstall

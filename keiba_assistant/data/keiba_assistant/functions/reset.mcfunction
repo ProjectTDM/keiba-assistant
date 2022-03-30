@@ -25,6 +25,6 @@ gamerule keepInventory false
 gamerule showDeathMessages true
 gamerule sendCommandFeedback true
 # 賭けアドオン用
-function keiba_assistant:gamble/reset
+function keiba_assistant_gamble:reset
 # クイズアドオン用
-function keiba_assistant:quiz/reset
+function keiba_assistant_quiz:reset
