@@ -1,0 +1,2 @@
+execute as @s if data storage keiba_assistant: {whip:{3:'{"translate":"item.keiba_assistant.whip","color":"dark_red","with":[{"text":3}]}'}} run function keiba_assistant:whip/reserved
+execute as @s if data storage keiba_assistant: {whip:{3:'{"translate":"item.keiba_assistant.whip","color":"dark_green","with":[{"text":3}]}'}} run function keiba_assistant:whip/give/whip3

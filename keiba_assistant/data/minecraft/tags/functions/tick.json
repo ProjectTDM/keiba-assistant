@@ -1,5 +1,5 @@
 {
-  "values": [
-    "keiba_assistant:tick"
+  "values":[
+    "keiba_assistant:sys/tick"
   ]
 }

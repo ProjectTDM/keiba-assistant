@@ -1,5 +1,5 @@
 {
-  "values": [
-    "keiba_assistant:load"
+  "values":[
+    "keiba_assistant:sys/load"
   ]
 }
