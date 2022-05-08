@@ -1,0 +1,4 @@
+# kill前に変更したゲームルールをもとに戻す
+gamerule showDeathMessages true
+gamerule doImmediateRespawn false
+gamerule keepInventory false
