@@ -1,5 +1,5 @@
 # 競馬アシスタント <!-- ![ダウンロード数](https://img.shields.io/github/downloads/tunakaniri/keiba-assistant/total) -->
-![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18.1-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) [![必須](https://img.shields.io/badge/Required-tunakan--resourcepack-blue)](../../../tunakan-resourcepack) ![管理者権限](https://img.shields.io/badge/Need%20OP-Admin%20Only-lightgrey)
+![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.18.2-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) [![必須](https://img.shields.io/badge/Required-tunakan--resourcepack-blue)](../../../tunakan-resourcepack) ![管理者権限](https://img.shields.io/badge/Need%20OP-Admin%20Only-lightgrey)
 
 マイクラでレース場さえ用意すれば競馬ができるデータパック
 - ~v2.3.0 1.17版
@@ -8,7 +8,7 @@
 
 # 注意
 - このデータパックに**賭け要素**は含まれていません。
-  - 理由としては、[Minecraft COMMERCIAL USAGE GUIDELINES](https://www.minecraft.net/ja-jp/terms#terms-commercial_guidelines)の「サーバーとホスティング」に以下のように記載されているためです。(商用利用されない方向けにReleaseにてアドオンを配布するため開発中...(次期バージョンv4.0.1と同時公開予定))
+  - 理由としては、[Minecraft COMMERCIAL USAGE GUIDELINES](https://www.minecraft.net/ja-jp/terms#terms-commercial_guidelines)の「サーバーとホスティング」に以下のように記載されているためです。(商用利用されない方向けにReleaseにてアドオンを配布するため開発中...(次期バージョンv4.1.0と同時公開予定))
 >上記のいずれの場合においても、お客様は以下のことを確実にする必要があります。
 >
 >- すべてのサーバー、資格、広告は、子どもや未成年者に適しており (**ギャンブル**、ポルノなどを**使用しない**)、ブランドに害を及ぼさない
