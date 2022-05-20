@@ -14,7 +14,6 @@ tag @a remove kill
 scoreboard objectives remove keiba.whip_Temp
 # v4.0.0
 scoreboard objectives remove keiba.
-scoreboard objectives remove keiba.give
 scoreboard objectives remove keiba.whip1
 scoreboard objectives remove keiba.whip2
 scoreboard objectives remove keiba.whip3
