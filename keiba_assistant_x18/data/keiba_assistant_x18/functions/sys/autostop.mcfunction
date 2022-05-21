@@ -13,6 +13,5 @@ scoreboard players enable @a[scores={keiba.whip=1..}] keiba.clear
 execute as @a unless entity @s[scores={keiba.whip=1..}] run scoreboard players enable @s keiba.give
 # titleの表示時間を戻す
 title @a reset
-# sendCommandFeedback以外のゲームルールをもとに戻す
-gamerule keepInventory false
-gamerule showDeathMessages true
+# ゲームルールを1秒後に戻す(すぐ戻すとプレイヤーのアイテムが消える可能性があるため)
+schedule function keiba_assistant_x18:race/aftkill 1s

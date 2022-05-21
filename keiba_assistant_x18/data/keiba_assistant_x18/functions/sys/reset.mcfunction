@@ -21,5 +21,6 @@ scoreboard players reset * keiba.rank
 scoreboard players set @a keiba.remain 0
 # titleの表示時間を戻す
 title @a reset
-# ゲームルールを1秒後に戻す(すぐ戻すとプレイヤーのアイテムが消える可能性があるため)
-schedule function keiba_assistant_x18:race/aftkill 1s
+# sendCommandFeedback以外のゲームルールをもとに戻す
+gamerule keepInventory false
+gamerule showDeathMessages true 
