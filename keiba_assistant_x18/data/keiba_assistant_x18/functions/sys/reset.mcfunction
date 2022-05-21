@@ -23,4 +23,4 @@ scoreboard players set @a keiba.remain 0
 title @a reset
 # sendCommandFeedback以外のゲームルールをもとに戻す
 gamerule keepInventory false
-gamerule showDeathMessages true 
+gamerule showDeathMessages true
