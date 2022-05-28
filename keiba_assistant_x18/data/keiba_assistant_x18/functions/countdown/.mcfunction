@@ -1,4 +1,4 @@
-# 赤石愛さん作1秒毎実行コマンドの流用
+# 赤石愛さん作1秒毎実行コマンドを利用
 # 概要→https://twitter.com/AiAkaishi/status/1308719263885094912?s=20&t=UiAs-4SbCV9Ft31pTccb7w
 # 詳細→https://discord.com/channels/378467571051134976/425993528183881745/758695504187752468
 
