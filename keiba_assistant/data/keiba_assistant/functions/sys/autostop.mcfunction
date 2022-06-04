@@ -11,7 +11,5 @@ tag @a remove keibatime
 scoreboard players enable @a[scores={keiba.whip=1..}] keiba.clear
 ## 鞭を持っていない人は鞭の受け取りを有効化
 execute as @a unless entity @s[scores={keiba.whip=1..}] run scoreboard players enable @s keiba.give
-# titleの表示時間を戻す
-title @a reset
 # ゲームルールを1秒後に戻す(すぐ戻すとプレイヤーのアイテムが消える可能性があるため)
 schedule function keiba_assistant:race/aftkill 1s
