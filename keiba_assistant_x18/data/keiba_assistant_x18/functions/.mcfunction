@@ -1,1 +1,0 @@
-execute as @e[predicate=keiba_assistant_x18:test] run say 1111
