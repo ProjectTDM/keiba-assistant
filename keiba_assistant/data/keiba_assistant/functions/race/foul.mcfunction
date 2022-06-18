@@ -18,4 +18,4 @@ execute store result storage keiba_assistant: player int 1 run data get storage 
 # 不正したことの通知
 tellraw @a {"translate":"tellraw.keiba_assistant.foul","with":[{"selector":"@s"}]}
 # ゲームルールを1秒後に戻す(すぐ戻すとプレイヤーのアイテムが消えるため)
-schedule function keiba_assistant:race/aftkill 1s 
+schedule function keiba_assistant:race/aftkill 1s
