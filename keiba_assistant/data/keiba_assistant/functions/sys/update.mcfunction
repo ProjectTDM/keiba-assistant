@@ -39,6 +39,6 @@ clear @a carrot_on_a_stick{CustomModelData:4}
 # リセット
 function keiba_assistant:reset
 # バージョン設定
-data modify storage keiba_assistant: ver set value 4.1.0
+data modify storage keiba_assistant: ver set value 4.1.1
 # アップデート完了表示(インストールされていた場合)
 execute if data storage keiba_assistant: {installed:1} run tellraw @a {"text":"[Server] Update completed!"}
