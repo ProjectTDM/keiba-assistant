@@ -6,7 +6,8 @@
       "offhand":{
         "items":[
           "minecraft:written_book"
-        ]
+        ],
+        "nbt":"{tag:keibacommandbook}"
       }
     }
   }
