@@ -10,7 +10,7 @@ data modify storage keiba_assistant_x18: whip.Name.1 set from entity @e[type=ite
 # 鞭番号を記録
 scoreboard players set @s keiba.whip 1
 # 鞭を付与
-loot spawn ~ ~ ~ loot keiba_assistant_x18:whip/whip1
+loot give @s loot keiba_assistant_x18:whip/whip1
 # 与えたことを本人に通知
 tellraw @s {"translate":"tellraw.keiba_assistant.give","with":[{"translate":"item.keiba_assistant.whip","color":"red","with":[{"text":"1"}]}]}
 # キャンセルを有効化
