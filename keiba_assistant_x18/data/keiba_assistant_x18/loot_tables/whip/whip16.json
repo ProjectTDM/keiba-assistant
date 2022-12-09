@@ -4,11 +4,11 @@
       "rolls":1,
       "entries":[
         {
-          "type":"minecraft:item",
-          "name":"minecraft:carrot_on_a_stick",
+          "type":"item",
+          "name":"carrot_on_a_stick",
           "functions":[
             {
-              "function":"minecraft:set_name",
+              "function":"set_name",
               "entity":"this",
               "name":{
                 "translate":"item.keiba_assistant.whip",
@@ -22,7 +22,7 @@
               }
             },
             {
-              "function":"minecraft:set_lore",
+              "function":"set_lore",
               "entity":"this",
               "lore":[
                 {
@@ -57,7 +57,7 @@
               ]
             },
             {
-              "function":"minecraft:set_nbt",
+              "function":"set_nbt",
               "tag":"{CustomModelData:16,tag:keibawhip}"
             }
           ]

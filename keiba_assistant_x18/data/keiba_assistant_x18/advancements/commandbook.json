@@ -1,17 +1,17 @@
 {
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
+  "criteria":{
+    "requirement":{
+      "trigger":"inventory_changed",
+      "conditions":{
+        "items":[
           {
-            "nbt": "{resolved:1b,tag:keibacommandbook}"
+            "nbt":"{resolved:1b,tag:keibacommandbook}"
           }
         ]
       }
     }
   },
-  "rewards": {
-    "function": "keiba_assistant_x18:sys/resolved"
+  "rewards":{
+    "function":"keiba_assistant_x18:sys/resolved"
   }
 }

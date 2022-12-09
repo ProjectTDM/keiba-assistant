@@ -8,7 +8,7 @@ tag @s remove keibaboost
 # 成功音(リソースパックで鞭の音に変更済み)
 playsound keiba_assistant:whip master @s ~ ~ ~ 80
 # 周りの人にブーストかかったことをお知らせ
-particle minecraft:cloud ~ ~1 ~ 0.5 0.5 0.5 0.1 30 force @a
+particle cloud ~ ~1 ~ 0.5 0.5 0.5 0.1 30 force @a
 # ブースト有限用
 execute if score @s keiba.remain matches 0.. run function keiba_assistant_x18:boost/remain
 # ブースト無限用(-1以下)

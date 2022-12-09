@@ -1,19 +1,19 @@
 {
-  "condition": "minecraft:alternative",
-  "terms": [
+  "condition":"alternative",
+  "terms":[
     {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "nbt": "{Tags:[\"keibaboost\"]}"
+      "condition":"entity_properties",
+      "entity":"this",
+      "predicate":{
+        "nbt":"{Tags:[\"keibaboost\"]}"
       }
     },
     {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "passenger": {
-          "nbt": "{Tags:[\"keibaboost\"]}"
+      "condition":"entity_properties",
+      "entity":"this",
+      "predicate":{
+        "passenger":{
+          "nbt":"{Tags:[\"keibaboost\"]}"
         }
       }
     }

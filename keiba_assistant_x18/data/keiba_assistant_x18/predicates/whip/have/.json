@@ -1,14 +1,14 @@
 {
-  "condition":"minecraft:alternative",
+  "condition":"alternative",
   "terms":[
     {
-      "condition":"minecraft:entity_properties",
+      "condition":"entity_properties",
       "entity":"this",
       "predicate":{
         "equipment":{
           "mainhand":{
             "items":[
-              "minecraft:carrot_on_a_stick"
+              "carrot_on_a_stick"
             ],
             "nbt":"{tag:keibawhip}"
           }
@@ -16,13 +16,13 @@
       }
     },
     {
-      "condition":"minecraft:entity_properties",
+      "condition":"entity_properties",
       "entity":"this",
       "predicate":{
         "equipment":{
           "offhand":{
             "items":[
-              "minecraft:carrot_on_a_stick"
+              "carrot_on_a_stick"
             ],
             "nbt":"{tag:keibawhip}"
           }

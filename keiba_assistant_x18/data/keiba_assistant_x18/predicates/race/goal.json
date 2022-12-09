@@ -1,24 +1,24 @@
 {
-  "condition":"minecraft:alternative",
+  "condition":"alternative",
   "terms":[
     {
-      "condition":"minecraft:location_check",
+      "condition":"location_check",
       "offsetY":-2,
       "predicate":{
         "block":{
           "blocks":[
-            "minecraft:iron_block"
+            "iron_block"
           ]
         }
       }
     },
     {
-      "condition":"minecraft:location_check",
+      "condition":"location_check",
       "offsetY":-3,
       "predicate":{
         "block":{
           "blocks":[
-            "minecraft:iron_block"
+            "iron_block"
           ]
         }
       }

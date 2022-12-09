@@ -31,7 +31,7 @@ tag @e remove gate1
 tag @e remove gate2
 tag @e remove gate3
 tag @e remove gate4
-clear @a minecraft:written_book{title:Whip,author:tunakaniri}
+clear @a written_book{title:Whip,author:tunakaniri}
 clear @a carrot_on_a_stick{CustomModelData:1}
 clear @a carrot_on_a_stick{CustomModelData:2}
 clear @a carrot_on_a_stick{CustomModelData:3}
@@ -39,6 +39,6 @@ clear @a carrot_on_a_stick{CustomModelData:4}
 # リセット
 function keiba_assistant:reset
 # バージョン設定
-data modify storage keiba_assistant: ver set value 4.1.3
+data modify storage keiba_assistant: ver set value 4.1.4
 # アップデート完了表示(インストールされていた場合)
 execute if data storage keiba_assistant: {installed:1} run tellraw @a {"text":"[Server] Update completed!"}
