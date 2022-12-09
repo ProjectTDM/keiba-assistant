@@ -13,6 +13,3 @@ particle cloud ~ ~1 ~ 0.5 0.5 0.5 0.1 30 force @a
 execute if score @s keiba.remain matches 0.. run function keiba_assistant:boost/remain
 # ブースト無限用(-1以下)
 execute unless score @s keiba.remain matches 0.. run title @s actionbar [{"translate":"title.keiba_assistant.boost","bold":true,"with":[{"text":"∞","color":"gold"}]}]
-# 鞭の表示更新
-item modify entity @s[predicate=keiba_assistant:whip/have/main] weapon.mainhand keiba_assistant:remain
-item modify entity @s[predicate=keiba_assistant:whip/have/off] weapon.offhand keiba_assistant:remain

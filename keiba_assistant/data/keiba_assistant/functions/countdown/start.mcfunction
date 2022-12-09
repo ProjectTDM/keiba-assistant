@@ -11,6 +11,9 @@ execute store result storage keiba_assistant: player int 1 if entity @a[tag=keib
 schedule function keiba_assistant:sys/time 1s
 # $keibaのkeiba.remainから鞭の使用可能回数を取得し、レース中のプレイヤー全員のkeiba.remainに代入
 scoreboard players operation @a[tag=keibatime] keiba.remain = $keiba keiba.remain
+# 鞭の表示更新
+item modify entity @s[predicate=keiba_assistant:whip/have/main] weapon.mainhand keiba_assistant:remain
+item modify entity @s[predicate=keiba_assistant:whip/have/off] weapon.offhand keiba_assistant:remain
 # タイムを表示
 scoreboard objectives setdisplay sidebar keiba.time
 # subtitleを削除
