@@ -1,5 +1,5 @@
 # 競馬アシスタント <!-- ![ダウンロード数](https://img.shields.io/github/downloads/tunakaniri/keiba-assistant/total) -->
-![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.19.2-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) [![必須](https://img.shields.io/badge/Required-tunakan--resourcepack-blue)](../../../tunakan-resourcepack) ![管理者権限](https://img.shields.io/badge/Need%20OP-Admin%20Only-lightgrey)
+![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.19.3-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) [![必須](https://img.shields.io/badge/Required-tunakan--resourcepack-blue)](../../../tunakan-resourcepack) ![管理者権限](https://img.shields.io/badge/Need%20OP-Admin%20Only-lightgrey)
 
 マイクラでレース場さえ用意すれば競馬ができるデータパック
 - ~v2.3.0 1.17版
@@ -37,4 +37,4 @@
 2. datapacksにzipファイルを入れる！(v4.0.0までは中身を展開したフォルダ内に入れたzipファイルを入れる!)
 3. 導入完了メッセージが出る
 4. **enjoy!**
-5. あとは[wiki](../../wiki)か[取扱説明書]()を見て細かいとこチェック！
+5. あとは[wiki](../../wiki)を見て細かいとこチェック！
