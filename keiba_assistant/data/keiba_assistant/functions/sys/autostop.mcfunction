@@ -6,10 +6,3 @@ data modify storage keiba_assistant: status set value '{"translate":"storage.kei
 # タグの削除
 tag @a remove keibaboost
 tag @a remove keibatime
-# 鞭取得をレース前に戻す
-## 鞭を持っている人は鞭の回収を有効化
-scoreboard players enable @a[scores={keiba.whip=1..}] keiba.clear
-## 鞭を持っていない人は鞭の受け取りを有効化
-execute as @a unless entity @s[scores={keiba.whip=1..}] run scoreboard players enable @s keiba.give
-# ゲームルールを1秒後に戻す(すぐ戻すとプレイヤーのアイテムが消える可能性があるため)
-schedule function keiba_assistant:race/aftkill 1s

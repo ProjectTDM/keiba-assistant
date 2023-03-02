@@ -4,7 +4,7 @@ scoreboard players set $keiba keiba.race 1
 ## commandbook用
 data modify storage keiba_assistant: status set value '{"translate":"storage.keiba_assistant.race","color":"dark_green"}'
 # 時間計測準備
-execute as @a[scores={keiba.whip=1..}] run tag @s add keibatime
+execute as @a[tag=keibahave] run tag @s add keibatime
 # 競技人数取得
 execute store result storage keiba_assistant: player int 1 if entity @a[tag=keibatime]
 # 時間計測開始

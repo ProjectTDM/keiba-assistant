@@ -9,11 +9,6 @@ scoreboard objectives add keiba.rank dummy
 scoreboard objectives add keiba.remain dummy {"translate":"scoreboard.keiba_assistant.remain"}
 ## レース時間
 scoreboard objectives add keiba.time dummy {"translate":"scoreboard.keiba_assistant.time"}
-## 鞭番号記録
-scoreboard objectives add keiba.whip dummy
-## 本関連
-scoreboard objectives add keiba.give trigger
-scoreboard objectives add keiba.clear trigger
 # 初期化
 function keiba_assistant:default
 # インストール済みにする

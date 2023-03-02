@@ -1,5 +1,5 @@
 # リセット
-function keiba_assistant:sys/reset
+function keiba_assistant:reset
 # カウントダウン開始(commandbook用)
 data modify storage keiba_assistant: status set value '{"translate":"storage.keiba_assistant.countdown","color":"gold"}'
 # titleの表示時間変更

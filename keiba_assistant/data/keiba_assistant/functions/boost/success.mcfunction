@@ -5,7 +5,7 @@ tag @s add keibaboost
 effect give @e[predicate=keiba_assistant:whip/boost] speed 5 3
 ## 使用者のタグ削除
 tag @s remove keibaboost
-# 成功音(リソースパックで鞭の音に変更済み)
+# 成功音
 playsound keiba_assistant:whip master @s ~ ~ ~ 80
 # 周りの人にブーストかかったことをお知らせ
 particle cloud ~ ~1 ~ 0.5 0.5 0.5 0.1 30 force @a
