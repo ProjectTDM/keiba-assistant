@@ -1,19 +1,19 @@
 {
-  "condition":"alternative",
-  "terms":[
+  "condition": "alternative",
+  "terms": [
     {
-      "condition":"entity_properties",
-      "entity":"this",
-      "predicate":{
-        "nbt":"{Tags:[\"keibaboost\"]}"
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[\"keibaboost\"]}"
       }
     },
     {
-      "condition":"entity_properties",
-      "entity":"this",
-      "predicate":{
-        "passenger":{
-          "nbt":"{Tags:[\"keibaboost\"]}"
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "passenger": {
+          "nbt": "{Tags:[\"keibaboost\"]}"
         }
       }
     }
