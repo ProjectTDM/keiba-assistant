@@ -1,5 +1,6 @@
 # scoreboardの削除
 scoreboard objectives remove keiba.click
+scoreboard objectives remove keiba.have
 scoreboard objectives remove keiba.race
 scoreboard objectives remove keiba.rank
 scoreboard objectives remove keiba.remain
@@ -16,7 +17,6 @@ clear @a written_book{tag:keibacommandbook}
 clear @a written_book{tag:keibawhipbook}
 clear @a oak_sign{tag:keibasign}
 # tagの削除
-tag @a remove keibahave
 tag @a remove keibaboost
 tag @a remove keibatime
 # title表示のリセット

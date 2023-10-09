@@ -1,5 +1,5 @@
 # 競馬アシスタント <!-- ![ダウンロード数](https://img.shields.io/github/downloads/tunakaniri/keiba-assistant/total) -->
-![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.19.4-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) [![必須](https://img.shields.io/badge/Required-tunakan--resourcepack-blue)](../../../tunakan-resourcepack) ![管理者権限](https://img.shields.io/badge/Need%20OP-Admin%20Only-lightgrey)
+![マイクラバージョン](https://img.shields.io/badge/Minecraft%20Ver-Java%201.17~1.19.4,1.20.2-brightgreen) ![タイプ](https://img.shields.io/badge/Type-datapack-orange) [![必須](https://img.shields.io/badge/Required-tunakan--resourcepack-blue)](../../../tunakan-resourcepack) ![管理者権限](https://img.shields.io/badge/Need%20OP-Admin%20Only-lightgrey)
 
 マイクラでレース場さえ用意すれば競馬ができるデータパック
 - ~v2.3.0 1.17版
@@ -9,6 +9,7 @@
 - v4.1.2~ 1.19.2版
 - v4.1.4~ 1.19.3版
 - v4.2.1~ 1.19.4版
+- v4.3.0~ 1.20.2版
 
 # ゲート回路例&これを作ったきっかけ<br>(これを基にデータパックを作っています)
 [【全マイクラ対応】動いて使える！ウマ娘や競馬に出てくる出走ゲートの作り方【半生ゆっくり実況】](https://www.youtube.com/watch?v=j7yZfmxRx50)

@@ -41,9 +41,11 @@ scoreboard objectives remove keiba.whip
 scoreboard objectives remove keiba.clear
 scoreboard objectives remove keiba.give
 data remove storage keiba_assistant: whip
+# v4.3.0
+tag @a remove keibahave
 # リセット
 function keiba_assistant:reset
 # バージョン設定
-data modify storage keiba_assistant: ver set value 4.2.1
+data modify storage keiba_assistant: ver set value 4.3.0
 # アップデート完了表示(インストールされていた場合)
 execute if data storage keiba_assistant: {installed:1} run tellraw @a {"text":"[Server] Update completed!"}
